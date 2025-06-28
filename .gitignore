@@ -1,0 +1,68 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+*.whl
+*.pyc
+
+# Environment variables
+.env
+*.env
+
+# Virtual environments
+venv/
+.env/
+virtualenv/
+env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Chainlit-specific
+.chainlit/
+chainlit.db
+
+# Logs and temporary files
+*.log
+*.log.*
+*.tmp
+temp/
+tmp/
+
+# Dependency lock files (if not needed in repo)
+poetry.lock  # Exclude if you don't want to track dependency versions
+requirements.txt  # Exclude if generated dynamically
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*.cache
