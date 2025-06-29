@@ -32,7 +32,7 @@ async def start():
     cl.user_session.set("chat_history", [])
     cl.user_session.set("config", config)
 
-    await cl.Message(content="Welcome to the Panaversity AI Assistant! How can I help you today?").send()
+    await cl.Message(content="Welcome to the GIAIC AI Assistant! How can I help you today?").send()
 
 @cl.on_message
 async def main(message: cl.Message):
